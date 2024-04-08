@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    font-family: 'Comfortaa',cursive !important;
+    background-color: #ececec;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #c8c1ff;
+}
+
+button:active {
+    background-color: #c1e3ff;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+}
+
+.calculator {
+    background-color: #e7cbe5;
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    width: 450px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.outputs {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 100px;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.outputs p {
+    margin-right: 15px;
+    font-weight: 800;
+}
+
+.functions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.functions button {
+    font-size: 22px;
+    width: 200px;
+    height: 70px;
+}
+
+.keypad {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+    height: 550px;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers button, .operators button {
+    font-size: 26px;
+    margin: 4px;
+    width: 90px;
+    height: 100px;
+}
+
+.operators button {
+    font-size: 30px;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+}
